@@ -76,7 +76,7 @@ class Homework
 
     public static void AllEven(int n = 0)
     {
-        for(int i = 0; i < n; i += 2)
+        for(int i = 2; i < n; i += 2)
         {
             Console.Write($"| {i} |");
         }
